@@ -11,7 +11,7 @@ Janis Sprenger  (1,2)  Lorena Hell  (1,3)  Matthias Klusch  (1)  Yoshiyuki Kobay
 (3)  Trier University, Psychology Dept., Trier, Germany  
 (4)  National Institute of Advanced Industrial Science and Technology (AIST), Chiba, Japan  
   
-![](html/images/Teaser.jpg)
+![](../../html/images/Teaser.jpg)
 
 ### Abstract
 
@@ -26,7 +26,7 @@ Link to the  [reference publication](https://www.dfki.de/fileadmin/user_upload/i
 
 ### License
 
-This part of the data is licensed under an  [adapted CC BY 4.0 license](data/StatisticalData/license.md). You can find the full license in the repository. The following is only a summary of this license:
+This part of the data is licensed under an  [adapted CC BY 4.0 license](license.md). You can find the full license in the repository. The following is only a summary of this license:
 
 You are free to copy and redistribute the material in any medium or format and to remix, transform, and build upon the material for any purpose, even commercially. However, this license is provided under two terms: (1) you must give appropriate credit, provide a link to the license, refer the reference paper in scientific publications (see below), and indicate if changes were made. You may do so in a reasonable manner, but not in any way that sugest the licensor endorses you or your use. (2) You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
