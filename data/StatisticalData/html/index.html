@@ -8,11 +8,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
-    <link rel="stylesheet" href="../../html/css/style.css">
+    <title>Cross-Cultural Behavior Analysis of Street-Crossing Pedestrians in Japan and Germany</title>
+    <link rel="stylesheet" href="../../../html/css/style.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">DFKI - logo</nav>
+    <nav class="navbar navbar-expand-lg"><img class="dfki" src="https://www.dfki.de/fileadmin/user_upload/DFKI/Medien/Logos/Logos_DFKI/DFKI_Logo.png" /></nav>
     <header class="masthead text-center">
         <div class="container">
             <h1></h1>
@@ -20,25 +20,26 @@
             <br />
             2023 IEEE Intelligent Vehicles Symposium (IV)
             <br /><br />
-            Janis Sprenger (1,2)   Lorena Hell (1,3)   Matthias Klusch (1)   Yoshiyuki Kobayashi (4)   Shoma Kudo (5)   Christian Müller (1)
+            Janis Sprenger <sup>(1,2)</sup>   Lorena Hell <sup>(1,3)</sup>   Matthias Klusch <sup>(1)</sup>   Yoshiyuki Kobayashi <sup>(4)</sup>   Shoma Kudo <sup>(5)</sup>   Christian Müller <sup>(1)</sup>
             <br /><br />
-            (1) German Research Center for Artificial Intelligence (DFKI), Saar-
+            <sup>(1)</sup> German Research Center for Artificial Intelligence (DFKI), Saar-
             bruecken, Germany <br />
-            (2) Saarland University, Computer Science Dept. Saarbruecken, Germany    <br />
-            (3) Trier University, Psychology Dept., Trier, Germany    <br />
-            (4) National Institute of Advanced Industrial Science and Technology
+            <sup>(2)</sup> Saarland University, Computer Science Dept. Saarbruecken, Germany    <br />
+            <sup>(3)</sup> Trier University, Psychology Dept., Trier, Germany    <br />
+            <sup>(4)</sup> National Institute of Advanced Industrial Science and Technology
             (AIST), Chiba, Japan
             <br /><br />
-            <img src="../../html/images/Teaser.jpg" />
+            <img src="../../../html/images/Teaser.jpg" />
         </div>
     </header>
     <section class="page-section" id="abstract">
         <div class="container">
             <h3>Abstract</h3>
-            <p>Software solutions for advanced driver assistant systems should be culturally fair, in particular when perceiving and reacting to pedestrians. To ensure the generation of suitable training and testing scenarios, a detailed understanding of pedestrian behavior and cultural differences in behavior must be established. However, direct comparisons between the populations 
+            <p align="justify">Software solutions for advanced driver assistant systems should be culturally fair, in particular when perceiving and reacting to pedestrians. To ensure the generation of suitable training and testing scenarios, a detailed understanding of pedestrian behavior and cultural differences in behavior must be established. However, direct comparisons between the populations 
             in different countries are scarce and complicated to conduct in real environments. 
-            In this work, we present the first cross-cultural pedestrian behavior study analyzing and comparing pedestrian behavior between Japanese and German pedestrians. For this purpose, a new and large-scale virtual reality (VR) environment was created and the same experiment was conducted in Germany and in Japan. We identified new insights in gap selection, choice of velocity, following behavior, and route choice. Particularly for the route choice adjacent to zebra crossings, the differences between Japanese and German pedestrians are more complex than past studies might suggest. In addition, the data captured in the VR environment can be directly utilized to train and test algorithms used in intelligent vehicles in a digital domain.         </p>
+            In this work, we present the first cross-cultural pedestrian behavior study analyzing and comparing pedestrian behavior between Japanese and German pedestrians. For this purpose, a new and large-scale virtual reality (VR) environment was created and the same experiment was conducted in Germany and in Japan. We identified new insights in gap selection, choice of velocity, following behavior, and route choice. Particularly for the route choice adjacent to zebra crossings, the differences between Japanese and German pedestrians are more complex than past studies might suggest. In addition, the data captured in the VR environment can be directly utilized to train and test algorithms used in intelligent vehicles in a digital domain. </p>
         </div>
+        
     </section>
 
     <section class="page-section" id="description">
@@ -46,15 +47,20 @@
             <h3>Datasets Description</h3>
             <p>
                 This dataset contains statistical data extracted for every trial of the experiment. In its current state, 
-                we have extacted a total of NNN variables, which formed the basis of the statistical evaluation in the original paper. 
+                we have extacted over 70 variables describing different aspects of the crossing events and which formed the basis of the statistical evaluation in the original paper. For more information, please consider the documents in our repository. 
             </p>
+
+            Link to the <a href="https://github.com/dfki-asr/PedestrianData/tree/develop/data/StatisticalData">dataset</a><br />
+            Link to the <a href="https://www.dfki.de/fileadmin/user_upload/import/13206_IEEE_IV23_PedestrianBehavior_Preprint.pdf">reference publication</a><br /><br />
+
             <h3 id="license">License</h3>
             <p>
-                This part of the data is licensed under an <a href="linktolicense">adapted CC BY 4.0 license</a>. You can find the full license in the repository. The following is only a summary of this license: 
+                This part of the data is licensed under an <a href="license.md">adapted CC BY 4.0 license</a>. You can find the full license in the repository. The following is only a summary of this license: 
             </p><p>
                 You are free to copy and redistribute the material in any medium or format and to remix, transform, and build upon the material for any purpose, even commercially. However, this license is provided under two terms: (1) you must give appropriate credit, provide a link to the license, refer the reference paper in scientific publications (see below), and indicate if changes were made. You may do so in a reasonable manner, but not in any way that sugest the licensor endorses you or your use. (2) You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits. 
             </p><p>
                 In case you publish your work based upon this data in a scientific context, you must cite the <a href="https://doi.org/10.1109/IV55152.2023.10186635">reference paper</a>. 
+
 <pre>@INPROCEEDINGS{10186635,
     author={Sprenger, Janis and Hell, Lorena and Klusch, Matthias and 
         Kobayashi, Yoshiyuki and Kudo, Shoma and Müller, Christian},
@@ -73,12 +79,19 @@
     <section class="page-section" id="funding">
         <div class="container">
             <h3>Funding Bodies</h3>
-            TODO
+            This work has been funded by the German Ministry for
+Research and Education (BMBF) in the project REACT
+under grant 01IW17003, and partly by the New Energy and
+Industrial Technology Development (NEDO; JPNP18010).
+We are specifically thankful to Saori Ohtani and André Antakli for their incredible support in preparing and conducting
+the experiments in Japan. In addition, we like to thank Nils
+Lipp and Niklas Braun for their support in generating the
+3D environment, and Vannessa Skrobisz and Annika Kolsch ¨
+for their support during the evaluation. 
         </div>
     </section>
 
     <footer>
-        Sitemap, Impressum
     </footer>
 
     <!-- Optional JavaScript -->
