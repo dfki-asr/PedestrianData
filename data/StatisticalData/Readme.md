@@ -17,9 +17,9 @@ Janis Sprenger  (1,2)  Lorena Hell  (1,3)  Matthias Klusch  (1)  Yoshiyuki Kobay
 
 Software solutions for advanced driver assistant systems should be culturally fair, in particular when perceiving and reacting to pedestrians. To ensure the generation of suitable training and testing scenarios, a detailed understanding of pedestrian behavior and cultural differences in behavior must be established. However, direct comparisons between the populations in different countries are scarce and complicated to conduct in real environments. In this work, we present the first cross-cultural pedestrian behavior study analyzing and comparing pedestrian behavior between Japanese and German pedestrians. For this purpose, a new and large-scale virtual reality (VR) environment was created and the same experiment was conducted in Germany and in Japan. We identified new insights in gap selection, choice of velocity, following behavior, and route choice. Particularly for the route choice adjacent to zebra crossings, the differences between Japanese and German pedestrians are more complex than past studies might suggest. In addition, the data captured in the VR environment can be directly utilized to train and test algorithms used in intelligent vehicles in a digital domain.
 
-### Datasets Description
+### Dataset Description
 
-This dataset contains statistical data extracted for every trial of the experiment. In its current state, we have extacted over 70 variables describing different aspects of the crossing events and which formed the basis of the statistical evaluation in the original paper. For more information, please consider the documents in our repository.
+This dataset contains statistical data extracted for every German trial of the experiment. In its current state, we have extacted over 70 variables describing different aspects of the crossing events and which formed the basis of the statistical evaluation in the original paper. For more information, please consider the documents in our repository.
 
 Link to the  [reference publication](https://www.dfki.de/fileadmin/user_upload/import/13206_IEEE_IV23_PedestrianBehavior_Preprint.pdf)  
   
