@@ -18,7 +18,7 @@ In this project, we are gathering the annonymized data from our experiments. As 
 
 ### Published Datasets
 
--   [Statistical Dataset](../data/StatisticalData/html/index.html): In this dataset, we extracted several variables required for the statistical analysis and evaluation of the experiment.
+-   [Statistical Dataset](data/StatisticalData/): In this dataset, we extracted several variables required for the statistical analysis and evaluation of the experiment.
 
 ### Funding Research Projects
 
