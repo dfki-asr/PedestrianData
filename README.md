@@ -4,7 +4,7 @@
 ## A Pedestrian Dataset Captured in Virtual Environments
 
   
-![](images/Teaser.jpg)
+![](html/images/Teaser.jpg)
 
 ### Abstract
 
